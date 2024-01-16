@@ -73,6 +73,14 @@ while True:
     xold = xnew
     n += 1
 ```
-
+## Range:
+In Python, the range() function is a built-in function that generates a sequence of numbers. It is commonly used in for loops to iterate over a sequence of numbers. The general syntax of the range() function is as follows:
+ ```
+range([start], stop[, step])
+```
+    start: (optional): The starting value of the sequence. If not specified, the sequence starts from 0.
+    stop: The end value of the sequence. The sequence generates numbers up to, but not including, this value.
+    step (optional): The step or increment between each pair of consecutive numbers in the sequence. If not specified, the default step is 1.
+ 
  ## Jupyter notebook of fixed root iteration
 'http://localhost:8888/notebooks/fixed_root_iteration.ipynb'
