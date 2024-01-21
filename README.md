@@ -81,6 +81,9 @@ range([start], stop[, step])
     start: (optional): The starting value of the sequence. If not specified, the sequence starts from 0.
     stop: The end value of the sequence. The sequence generates numbers up to, but not including, this value.
     step (optional): The step or increment between each pair of consecutive numbers in the sequence. If not specified, the default step is 1.
+
+# Mean value theorem
+
  
  ## Jupyter notebook of fixed root iteration
 'http://localhost:8888/notebooks/fixed_root_iteration.ipynb'
