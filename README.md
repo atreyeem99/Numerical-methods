@@ -16,11 +16,11 @@
    -Does not guarantee a solution
 
 ## Fixed root iteration
--initial value x
--g(x)= {x + A/x}/2
- -where A is the number whose sq root we want to find
- -g(x) value becomes the next x
- -when x is equal to g(x), that g(x) is the square root
+- initial value x
+- g(x)= {x + A/x}/2
+ -  where A is the number whose sq root we want to find
+ - g(x) value becomes the next x
+ - when x is equal to g(x), that g(x) is the square root
 
  with for loop:
  ```
