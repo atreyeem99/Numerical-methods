@@ -83,6 +83,9 @@ range([start], stop[, step])
     step (optional): The step or increment between each pair of consecutive numbers in the sequence. If not specified, the default step is 1.
 
 # Mean value theorem
+# Bisection method
+
+
 
  
  ## Jupyter notebook of fixed root iteration
