@@ -73,6 +73,24 @@ while True:
     xold = xnew
     n += 1
 ```
+```
+import numpy as np
+import math
+
+def g(x,A=5):
+    val = 5 * (1 - math.exp(-x))
+    return val
+xold=0.1
+error_threshold=0.001
+error=float('inf')
+i=0
+while error>error_threshold:
+      xnew=g(xold)
+      error=abs(xnew-xold)
+      print(i,xnew,xold,error)
+      xold=xnew
+      i+=1
+```
 ## Range:
 In Python, the range() function is a built-in function that generates a sequence of numbers. It is commonly used in for loops to iterate over a sequence of numbers. The general syntax of the range() function is as follows:
  ```
