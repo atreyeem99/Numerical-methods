@@ -102,7 +102,45 @@ range([start], stop[, step])
 
 # Mean value theorem
 # Bisection method
+```
+def bisection_method(a, b, tolerance):
+    iterations = 0
+    while (b - a) > tolerance:
+        midpoint = (a + b) / 2
+        if midpoint**2 - 5 == 0:
+            return midpoint, iterations
+        elif (midpoint**2 - 5) * (a**2 - 5) < 0:
+            b = midpoint
+        else:
+            a = midpoint
+        iterations += 1
+    return (a + b) / 2, iterations
 
+def fixed_point_iteration(initial_guess, tolerance):
+    iterations = 0
+    x = initial_guess
+    while abs(x**2 - 5) > tolerance:
+        x = (x + 5 / x) / 2
+        iterations += 1
+    return x, iterations
+
+if __name__ == "__main__":
+    # Bisection method
+    a, b = 1, 3
+    tolerance_bisection = 0.001
+    result_bisection, iterations_bisection = bisection_method(a, b, tolerance_bisection)
+
+    # Fixed-point iteration method
+    initial_guess = 2
+    tolerance_fixed_point = 0.001
+    result_fixed_point, iterations_fixed_point = fixed_point_iteration(initial_guess, tolerance_fixed_point)
+
+    print(f"Bisection method result: {result_bisection}")
+    print(f"Number of iterations for bisection method: {iterations_bisection}")
+
+    print(f"\nFixed-point iteration method result: {result_fixed_point}")
+    print(f"Number of iterations for fixed-point iteration method: {iterations_fixed_point}")
+```
 
 
  
