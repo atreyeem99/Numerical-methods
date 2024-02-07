@@ -141,7 +141,9 @@ if __name__ == "__main__":
     print(f"\nFixed-point iteration method result: {result_fixed_point}")
     print(f"Number of iterations for fixed-point iteration method: {iterations_fixed_point}")
 ```
-
+# Cobweb
+- x=cosx oscillatory convergence
+- x=sinx monotonous convergence
 
  
  ## Jupyter notebook of fixed root iteration
