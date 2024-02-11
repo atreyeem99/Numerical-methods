@@ -145,6 +145,7 @@ if __name__ == "__main__":
 - x=cosx oscillatory convergence
 - x=sinx monotonous convergence
 # Upper triangular matrix
+Solvig an upper triangular matrix
 
  
  ## Jupyter notebook of fixed root iteration
