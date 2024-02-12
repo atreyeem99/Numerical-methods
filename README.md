@@ -146,7 +146,7 @@ if __name__ == "__main__":
 - x=sinx monotonous convergence
 # Upper triangular matrix
 Solvig an upper triangular matrix
-
+# Flop count
  
  ## Jupyter notebook of fixed root iteration
 'http://localhost:8888/notebooks/fixed_root_iteration.ipynb'
