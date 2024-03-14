@@ -214,6 +214,7 @@ C = strassen_matrix_multiply(A, B)
 for row in C:
     print(row)
 ```
+# scipy 
  
  ## Jupyter notebook of fixed root iteration
 'http://localhost:8888/notebooks/fixed_root_iteration.ipynb'
