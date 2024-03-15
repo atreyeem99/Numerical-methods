@@ -215,6 +215,6 @@ for row in C:
     print(row)
 ```
 # scipy 
- 
+ # function approximation (Model making)
  ## Jupyter notebook of fixed root iteration
 'http://localhost:8888/notebooks/fixed_root_iteration.ipynb'
