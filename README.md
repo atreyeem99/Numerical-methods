@@ -217,4 +217,5 @@ for row in C:
 # scipy 
  # function approximation (Model making)
  ## Jupyter notebook of fixed root iteration
+ # vondermonde matrix
 'http://localhost:8888/notebooks/fixed_root_iteration.ipynb'
