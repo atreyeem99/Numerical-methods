@@ -218,4 +218,5 @@ for row in C:
  # function approximation (Model making)
  ## Jupyter notebook of fixed root iteration
  # vondermonde matrix
+ # iterative interpolation
 'http://localhost:8888/notebooks/fixed_root_iteration.ipynb'
