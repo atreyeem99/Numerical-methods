@@ -219,4 +219,5 @@ for row in C:
  ## Jupyter notebook of fixed root iteration
  # vondermonde matrix
  # iterative interpolation
+ # Lagrange interpolation
 'http://localhost:8888/notebooks/fixed_root_iteration.ipynb'
