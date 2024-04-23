@@ -220,5 +220,5 @@ for row in C:
  # vondermonde matrix
  # iterative interpolation
  # Lagrange interpolation
- # Integration
+ # Integration       Rieman
 'http://localhost:8888/notebooks/fixed_root_iteration.ipynb'
