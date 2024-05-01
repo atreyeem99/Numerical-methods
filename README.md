@@ -223,5 +223,5 @@ for row in C:
  # Integration      ( Rieman integration)
  # 11th exam
  # ODE
- # differential
+ # differential equations
 'http://localhost:8888/notebooks/fixed_root_iteration.ipynb'
