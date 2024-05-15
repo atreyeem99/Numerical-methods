@@ -224,4 +224,5 @@ for row in C:
  # 11th exam
  # ODE
  # differential equations
+ # take home exam 3rd problem
 'http://localhost:8888/notebooks/fixed_root_iteration.ipynb'
